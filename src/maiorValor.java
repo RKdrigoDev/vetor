@@ -4,7 +4,7 @@ public class maiorValor {
     public static void main(String[] args) {
         Random r=new Random();
         int maior=0, linha, coluna;
-        int[][] m=new int[3][3];
+        int[][] m=new int[10][10];
         for (int l=0; l<m.length; l++){
             for (int c=0; c<m.length; c++){
                 m[l][c]= r.nextInt(0,1000);
